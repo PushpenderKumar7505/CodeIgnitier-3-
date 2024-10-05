@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form  {
+    background:whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.image-container{
+    float: right;
+    width: 100%;
+}
+.login{
+    width: 100px;
+    margin-right: 57%;
+    color: white;
+    background-color: blue;
+  
+}
+.cancel{
+    width: 50px;
+    background-color:red;
+    color: white;
+}

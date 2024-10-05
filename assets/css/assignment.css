@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-container{
+    width: 70vw;
+    height: 90vh;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+}
+.column{
+    width: 810px;
+    height: 100vh;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    font-size: 24px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.login{
+    width: 100px;
+    margin-right: 57%;
+    color: white;
+    background-color: blue;
+}
+.cancel{
+    width: 100px;
+    color: white;
+    background-color: red;
+}
+
