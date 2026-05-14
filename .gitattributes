@@ -14,3 +14,4 @@ application/vendor/* linguist-vendored
 
 # Exclude assets from stats
 assets/* linguist-vendored
+*.php linguist-language=PHP
