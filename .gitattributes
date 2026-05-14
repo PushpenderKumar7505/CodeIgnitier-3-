@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force correct language detection
+*.php linguist-language=PHP
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.json linguist-language=JSON
+
+# Exclude CI3 system folder from language stats
+system/* linguist-vendored
+application/vendor/* linguist-vendored
+
+# Exclude assets from stats
+assets/* linguist-vendored
